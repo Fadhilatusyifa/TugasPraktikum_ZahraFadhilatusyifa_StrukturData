@@ -172,8 +172,8 @@ void editdatamhs(Mahasiswa mahasiswa[], int jumlahMahasiswa){ // mendeklarasikan
                // tidak ditemukan.
             cout << "Data Mahasiswa dengan NPM " << npm_cari << " tidak ditemukan." << endl;
             char a; // mendeklarasikan sebuah variabel 'a' yang bertipe data 'char' yang digunakan untuk menyimpan pilihan yang dimasukkan oleh pengguna.
-            cout << "Apakah anda ingin mencari data mahasiswa lagi? (y/n) : "; // mencetak pesan ke layar yang bertanya kepada pengguna apakah ingin mencari data mahasiswa lagi?, jika iya maka pengguna diminta 
-                                                                               // untuk memasukkan pilihan 'y' jika tidak ingin mencari lagi maka pengguna diminta untuk memasukkan pilihan 'n'.
+            cout << "Apakah anda ingin mencari data mahasiswa lagi? (y) : "; // mencetak pesan ke layar yang bertanya kepada pengguna apakah ingin mencari data mahasiswa lagi?, jika iya maka pengguna diminta 
+                                                                             // untuk memasukkan pilihan 'y'.
             cin >> a; // menerima input dari pengguna kemudian menyimpan jawaban pengguna ke dalam variabel 'a'.
             if (a == 'Y' || 'y'){ // kondisi ini memeriksa apakah nilai variabel 'a' sama dengan karakter 'Y' atau apakah karakter 'y' dianggap benar (true). jika 'a' sama dengan 'Y' atau jika 'y' dianggap benar, 
                                   // maka kondisi akan terpenuhi dan kode dalam blok 'if' akan dieksekusi.
@@ -214,8 +214,8 @@ void hapusdatamhs(Mahasiswa mahasiswa[], int& jumlahMahasiswa){ // mendeklarasik
                 // tidak ditemukan.
             cout << "\nData Mahasiswa dengan NPM " << npm_cari << " tidak ditemukan." << endl; 
             char a; // mendeklarasikan sebuah variabel 'a' yang bertipe data 'char' yang digunakan untuk menyimpan pilihan yang dimasukkan oleh pengguna.
-            cout << "\nApakah anda ingin mencari data mahasiswa lagi? (y/n) : "; // mencetak pesan ke layar yang bertanya kepada pengguna apakah ingin mencari data mahasiswa lagi?, jika iya maka pengguna diminta 
-                                                                                 // untuk memasukkan pilihan 'y' jika tidak ingin mencari lagi maka pengguna diminta untuk memasukkan pilihan 'n'.
+            cout << "\nApakah anda ingin mencari data mahasiswa lagi? (y) : "; // mencetak pesan ke layar yang bertanya kepada pengguna apakah ingin mencari data mahasiswa lagi?, jika iya maka pengguna diminta 
+                                                                                 // untuk memasukkan pilihan 'y'.
             cin >> a; // menerima input dari pengguna kemudian menyimpan jawaban pengguna ke dalam variabel 'a'.
             if (a == 'Y' || 'y'){ // kondisi ini memeriksa apakah nilai variabel 'a' sama dengan karakter 'Y' atau apakah karakter 'y' dianggap benar (true). jika 'a' sama dengan 'Y' atau jika 'y' dianggap benar, 
                                   // maka kondisi akan terpenuhi dan kode dalam blok 'if' akan dieksekusi.
